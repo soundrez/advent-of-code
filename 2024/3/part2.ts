@@ -76,7 +76,13 @@ export function removeDonts(input: string): string {
     const dontSections = input.split("don't");
     let filteredAns = ''
 
-    dontSections.forEach(sec => {
+    dontSections.forEach((sec, index) => {
+
+        // start with do
+        if (index === 0) {
+            filteredAns += sec;
+        }
+
         const doIndex = sec.indexOf('do()')
 
         if (doIndex === -1) {
