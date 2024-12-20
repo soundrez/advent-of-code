@@ -1,9 +1,7 @@
 import { expect } from "jsr:@std/expect";
 
 
-const PATH = 'X'
-const OBS = '#'
-const BLA = '.'
+
 
 type Location = '.' | '#' | 'X' | 'guard' | 'outside';
 type Map = Location[][];
