@@ -1,4 +1,3 @@
-import { diff } from "jsr:@std/internal@^1.0.5/diff";
 import { expect } from "jsr:@std/expect/expect";
 
 
