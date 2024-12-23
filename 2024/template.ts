@@ -12,7 +12,7 @@ Deno.test('part1 example', () => {
 })
 
 Deno.test('part 1 real', async () => {
-    const text = await Deno.readTextFile("/Users/daniel/code/advent-of-code/2024/inputs/10.txt");
+    const text = await Deno.readTextFile("/Users/daniel/code/advent-of-code/2024/inputs/0.txt");
 
     const ans = part1(text)
     expect(ans).toBe(1)
@@ -27,7 +27,7 @@ Deno.test('part 2 example', () => {
 })
 
 Deno.test('part 2 real', async () => {
-    const text = await Deno.readTextFile("/Users/daniel/code/advent-of-code/2024/inputs/10.txt");
+    const text = await Deno.readTextFile("/Users/daniel/code/advent-of-code/2024/inputs/0.txt");
 
     const ans = part2(text)
     expect(ans).toBe(1)
